@@ -9,6 +9,16 @@ Simple script collection, currently in bash and python format, to generate a com
 - OpenSSL
 - SHA3sum (keccak-256sum) https://github.com/maandree/sha3sum
 
+## Importing private key to geth
+You can use the generated private key to import in to geth (https://github.com/ethereum/go-ethereum).
+```bash
+# First save the private hexadecimal key to a file
+echo eff415edb6331f4f67bdb7f1ecc639da9bcc0550b100bb275c7b5b21ce3a7804 > key
+# Then use account import feature of geth (here importing in the 'testnet' directory)
+./go-ethereum/build/bin/geth --datadir ~/.ethereum/testnet account import key
+```
+Note that geth will ask you immediately to choose a passphrase to protect the newly imported key.
+
 ## Example
 ```bash
 ./ethereum-wallet-generator.py 
