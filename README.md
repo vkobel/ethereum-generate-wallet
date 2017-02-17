@@ -1,6 +1,8 @@
 # Ethereum wallet generator
 Simple script collection, currently in bash and python format, to generate a complete offline Ethereum wallet by creating an ECDSA keypair and derive its Ethereum address.
 
+You can read my article about it here: https://kobl.one/blog/create-full-ethereum-keypair-and-address/
+
 ## Python dependencies
 - ECDSA https://pypi.python.org/pypi/ecdsa
 - pysha3 https://pypi.python.org/pypi/pysha3
