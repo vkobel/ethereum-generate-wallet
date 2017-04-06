@@ -7,6 +7,11 @@ You can read my article about it here: https://kobl.one/blog/create-full-ethereu
 - ECDSA https://pypi.python.org/pypi/ecdsa
 - pysha3 https://pypi.python.org/pypi/pysha3
 
+You can also use the included requirements.txt file to install them
+```bash
+pip install -r requirements.txt
+```
+
 ## Bash dependencies
 - OpenSSL
 - SHA3sum (keccak-256sum) https://github.com/maandree/sha3sum
@@ -23,7 +28,7 @@ Note that geth will ask you immediately to choose a passphrase to protect the ne
 
 ## Example
 ```bash
-./ethereum-wallet-generator.py 
+./ethereum-wallet-generator.py
 Private key: eff415edb6331f4f67bdb7f1ecc639da9bcc0550b100bb275c7b5b21ce3a7804
 Public key:  d6dd5241c03bf418b333c256057ee878c34975d6abda075d58e4b9780f4a8659fcc096b6ad763d8e5914f7daa0b7351398b1eb6458e95ac41a2711a0651f3fc6
 Address:     0x4206f95fc533483fae4687b86c1d0a0088e3cd48
