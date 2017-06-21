@@ -1,2 +1,2 @@
 ecdsa
-pysha3
+pysha3>=1.0.2
