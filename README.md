@@ -16,7 +16,7 @@ pip install -r requirements.txt
 - OpenSSL
 - SHA3sum (keccak-256sum) https://github.com/maandree/sha3sum
 
-*A compiled, statically linked version of the keccak-256sum executable is available in the lib folder of this repo.*
+*Compiled, statically linked versions of the keccak-256sum executable are available in the lib folder of this repo for i386 and x86_64.*
 
 ## Importing private key to geth
 You can use the generated private key to import in to geth (https://github.com/ethereum/go-ethereum).
