@@ -3,6 +3,8 @@ Simple script collection, currently in bash and python format, to generate a com
 
 You can read my article about it here: https://kobl.one/blog/create-full-ethereum-keypair-and-address/
 
+**IMPORTANT** The python version of this script has been updated to support mixed-case checksum address encoding through [EIP55](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-55.md).
+
 ## Python dependencies
 - ECDSA https://pypi.python.org/pypi/ecdsa
 - pysha3 https://pypi.python.org/pypi/pysha3
@@ -31,9 +33,9 @@ Note that geth will ask you immediately to choose a passphrase to protect the ne
 ## Example
 ```bash
 ./ethereum-wallet-generator.py
-Private key: eff415edb6331f4f67bdb7f1ecc639da9bcc0550b100bb275c7b5b21ce3a7804
-Public key:  d6dd5241c03bf418b333c256057ee878c34975d6abda075d58e4b9780f4a8659fcc096b6ad763d8e5914f7daa0b7351398b1eb6458e95ac41a2711a0651f3fc6
-Address:     0x4206f95fc533483fae4687b86c1d0a0088e3cd48
+Private key: 981679905857953c9a21e1807aab1b897a395ea0c5c96b32794ccb999a3cd781
+Public key:  7454f003941bba7c5e16d8c9fce19104b2f51486e00d47f39e6eb0aea6f1c6f80cad2d239c8b4b1bf903e41960920f735fda4fcc4422aa815416b7d0df62f8a5 
+Address:     0x5fe3062B24033113fbf52b2b75882890D7d8CA54
 ```
 
 ```bash
